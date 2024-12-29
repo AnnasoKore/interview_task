@@ -1,0 +1,67 @@
+{
+  "product": [
+    {
+      "productName": "Mobile",
+      "productCategory": "Electronics",
+      "productPrice": 25000,
+      "productQuantity": 2,
+      "totalPrice": 50000,
+      "productId": "3169",
+      "id": "3169"
+    },
+    {
+      "productName": "Table Fan",
+      "productCategory": "Electronics",
+      "productPrice": 2500,
+      "productQuantity": 5,
+      "totalPrice": 12500,
+      "productId": "9a73",
+      "id": "9a73"
+    },
+    {
+      "productName": "Fan",
+      "productCategory": "Electronics",
+      "productPrice": 4000,
+      "productQuantity": 8,
+      "totalPrice": 32000,
+      "productId": "be6f",
+      "id": "be6f"
+    },
+    {
+      "productName": "Charger",
+      "productCategory": "Electronics",
+      "productPrice": 500,
+      "productQuantity": 2,
+      "totalPrice": 1000,
+      "productId": "f3fd",
+      "id": "f3fd"
+    },
+    {
+      "productName": "Laptop",
+      "productCategory": "Electronics",
+      "productPrice": 65000,
+      "productQuantity": 2,
+      "totalPrice": 130000,
+      "productId": "5b2c",
+      "id": "5b2c"
+    },
+    {
+      "productName": "Computer",
+      "productCategory": "Electronics",
+      "productPrice": 20000,
+      "productQuantity": 2,
+      "totalPrice": 40000,
+      "productId": "0cbd",
+      "id": "0cbd"
+    },
+    {
+      "productName": "Laptop",
+      "productCategory": "Electronics",
+      "productPrice": 25500,
+      "productQuantity": 5,
+      "totalPrice": 250000,
+      "productId": "483a",
+      "id": "483a"
+    }
+  ]
+}

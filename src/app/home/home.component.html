@@ -1,0 +1,32 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="offset-1 col-md-10 rounded shadow">
+            <table class="table mt-3">
+                <thead>
+                    <tr>
+                        <th class="col-md-2 text-center">Product Name</th>
+                        <th class="col-md-2 text-center">Product Category</th>
+                        <th class="col-md-2 text-center">Product Price</th>
+                        <th class="col-md-2 text-center">Product Quantity</th> 
+                        <th class="col-md-2 text-center">Total Price</th> 
+
+                        <th class="text-center col-md-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody >
+                    <tr  *ngFor="let productData of productData">
+                        <td class="col-md-2 text-center"> {{productData.productName}} </td>
+                        <td class="col-md-2 text-center"> {{productData.productCategory}} </td>
+                        <td class="col-md-2 text-center"> {{productData.productPrice}} </td>
+                        <td class="col-md-2 text-center"> {{productData.productQuantity}} </td>
+                        <td class="col-md-2 text-center"> {{productData.totalPrice}} </td>
+                        <td class="text-center col-md-2">
+                            <button class="btn btn-outline-success btn-sm m-1" [routerLink]="['/product',productData.id]" routerLinkActive="active">Edit</button>
+                            <button (click)="deleteProduct(productData.id)" class="btn btn-outline-danger btn-sm m-1">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
